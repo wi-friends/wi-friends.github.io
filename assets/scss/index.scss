@@ -1,0 +1,77 @@
+.header {
+    background-color: #fff;
+    height: 10vh;
+}
+
+.logo {
+    fill: #fff;
+    height: 50px;
+    margin: 5px;
+}
+
+.banner-form {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://www.avanade.com/images/re-brand/Jpg/glow-1920.jpg);
+}
+
+.container-login {
+    background-color: #fff;
+    display: flex;
+    height: 520px;
+    width: 500px;
+    border-radius: 2%;
+    box-shadow: 0 2px 2px 2px rgba(0,0,0,0.3);
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        label {
+            margin-top: 2%;
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            input {
+                width: 100%;
+                border: none;
+                background: #fff;
+                box-shadow: 0 0 2px rgba(0,0,0,0.2);
+                padding: 10px;
+                border-radius: 5px;
+            }
+        }
+        p {
+            font-family: system-ui;
+        }
+        a {
+            color: #fc5b0c;
+            text-decoration: none;
+            font-size: .9rem;
+            text-align: center;
+            font-weight: 500;
+            margin-top: 2%;
+            margin-bottom: 20%;
+        }
+    }
+}
+
+.button-send {
+    background-color: transparent;
+    border: 1px solid #4d4d4d;
+    padding: 10px;
+    border-radius: 3%;
+    width: 50%;
+    margin-top: 2%;
+    cursor: pointer;
+    transition: 0.5;
+    font-family: system-ui;
+}
+
+.button-send:hover {
+    background-color: rgba(36,36,36,0.2);;
+}

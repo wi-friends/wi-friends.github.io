@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <img src="./assets/image/avanade-logo.png" class="logo" alt="Logo da Avanade">      
+    </header>
+    <section class= "banner-form">
+        <div class="container-login">
+        <form class="form-login" method="post">
+            <label for="login">
+                Nome:
+                <input required type="text" name="login" id="login" placeholder="Digite o nome" 
+                    title="O Campo nome é obrigatório"/>
+            </label>
+            <label for="e-mail">
+                E-mail:
+                <input required type="text" name="e-mail" id="e-mail" placeholder="Digite o e-mail"
+                    title="O Campo e-mail é obrigatório" />
+                
+            </label>
+            <label for="password">
+                Senha:
+                <input type="password" name="password" required id="login" 
+                    placeholder="Digite a senha"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="A senha deve conter, ao menos uma letra minúscula, uma letra maiúscula, um número e pelo menos 8 caracteres"/>
+            </label>
+            <label for="password">
+                Confirme sua senha:
+                <input type="password" name="password" required id="login" 
+                    placeholder="Confirme a senha"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title=" O campo confirme sua senha é obrigatório" type="submit">
+            </label>
+            <button class="button-send">Enviar</button>
+            <p><a href="#">Já tenho cadastro</a></p>
+            </form>
+        </div>       
+    </section>
+</body>
+</html>
